@@ -31,6 +31,15 @@ vi docker-compose.yml
 - ansible_aws_ssm_bucket_name:
 - ansible_aws_ssm_instance_id: 
 
+Update hosts
+```
+vi playbook/hosts
+```
+
+```
+i-1234567890
+```
+
 Edit Playbook
 ```
 vi playbook/playbook.yml
