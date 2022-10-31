@@ -40,3 +40,9 @@ Play
 ```
 docker-compose up
 ```
+
+## Todo
+
+- Alpine builds
+- Docker Slim builds
+- gh-actions composite release

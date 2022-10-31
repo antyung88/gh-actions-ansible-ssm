@@ -3,7 +3,7 @@ services:
   ansible:
     container_name: ansible-ssm
     image: ghcr.io/antyung88/ansible-ssm:latest
-    build: .
+#    build: .
     environment:
       ansible_connection: aws_ssm
       ansible_python_interpreter: /usr/bin/python2
