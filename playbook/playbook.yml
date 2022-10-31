@@ -1,0 +1,10 @@
+---
+- hosts: all
+  vars_files:
+    - /.env
+
+  tasks:
+  - name: Perform yum update of all packages
+    yum:
+      name: '*'
+      state: latest
